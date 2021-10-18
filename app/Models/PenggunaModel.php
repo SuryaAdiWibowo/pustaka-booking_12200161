@@ -12,8 +12,5 @@ class PenggunaModel extends Model
     protected $useAutoIncrement     = true;
     protected $returnType           = 'array';
     protected $protectFields        = true;
-    protected $allowedFields        = ['nama', 'password'];
-
-    
-    
+    protected $allowedFields        = ['nama','password'];
 }
